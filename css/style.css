@@ -178,7 +178,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
-  width: 1600px;
+  max-width: 1600px;
   height: 600px;
   padding-top: 200px;
   padding-bottom: 200px;
@@ -352,9 +352,13 @@ body {
 }
 
 /* CLIENTS */
+
 .clients-list {
   display: flex;
-  justify-content: space-between;
+  margin: -15px;
+}
+.clients-item {
+  margin: 15px;
 }
 
 .clients-item-link {
